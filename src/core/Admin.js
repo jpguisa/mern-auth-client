@@ -106,7 +106,6 @@ const Admin = ({history}) => {
     <Layout>
         <div className="col-md-6 offset-md-3">
             <ToastContainer />
-            {JSON.stringify({name,email,password})}
             <h1 className="p-5 text-center">Admin</h1>
             {signupForm()}
         </div>

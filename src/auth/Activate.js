@@ -53,9 +53,8 @@ const Activate = ({match}) => {
 
     return (
     <Layout>
-        <div className="col-md-6 offset-md-3">
+        <div className="col-md-6 offset-md-3 text-center">
             <ToastContainer />
-            {JSON.stringify({name, token, show})}
             {activationLink()}
         </div>
     </Layout>

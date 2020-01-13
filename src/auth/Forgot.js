@@ -54,7 +54,6 @@ const Forgot = () => {
     <Layout>
         <div className="col-md-6 offset-md-3">
             <ToastContainer />
-            {JSON.stringify({email})}
             <h1 className="p-5 text-center">Forgot Password</h1>
             {forgotForm()}
         </div>

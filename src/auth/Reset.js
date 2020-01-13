@@ -69,7 +69,6 @@ const Reset = ({match}) => {
     <Layout>
         <div className="col-md-6 offset-md-3">
             <ToastContainer />
-            {JSON.stringify({newPassword,token})}
             <h3 className="p-5 text-center">Hey {name}, type your new password</h3>
             {resetForm()}
         </div>

@@ -75,7 +75,6 @@ const Signin = ({history}) => {
         <div className="col-md-6 offset-md-3">
             <ToastContainer />
             {isAuth() ? <Redirect to="/"/> : null}
-            {JSON.stringify({email,password})}
             <h1 className="p-5 text-center">Sign In</h1>
             {signinForm()}
             <Link to="/auth/password/forgot" className="mt-3 btn btn-sm btn-outline-danger">Forgot password?</Link>
